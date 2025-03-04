@@ -1,7 +1,7 @@
 ---
-description: I made up my gitbook to report my studies.
+description: It's my gitbook
 ---
 
-# Gitbook Init
+# JS's Gitbook
 
-Hello, guys.
+I'll report about my studies here.
