@@ -1,5 +1,5 @@
 ---
-description: Flask의 라우팅 기능에 대한 학습 내용 정리
+description: Flask의 라우팅 기능과 관련 기능
 ---
 
 # Routing

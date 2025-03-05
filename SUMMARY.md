@@ -5,3 +5,4 @@
 ## Flask
 
 * [Routing](flask/routing.md)
+* [Request & Response](flask/request-and-response.md)
