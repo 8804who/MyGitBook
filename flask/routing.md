@@ -20,8 +20,8 @@ def main():
 
 변수 값을 받아와서 URL 주소 내에서 사용할 수도 있습니다.
 
-```
-@app.route("/userpage/<username>
+```python
+@app.route("/userpage/<username>)
 def userpage(username):
     reutnr "user_page"
 ```
@@ -32,7 +32,7 @@ def userpage(username):
 
 HTTP 메서드를 지정할 때는&#x20;
 
-```
+```python
 @app.route("/address",method=['GET'])
 ```
 
@@ -42,7 +42,7 @@ HTTP 메서드를 지정할 때는&#x20;
 
 또한하나의 함수에서 여러 HTTP 메서드를 사용할 수도 있는데 이때는
 
-```
+```python
 @app.route("/address",method=['GET','POST']
 def method():
     if request.method == "GET":
@@ -59,7 +59,7 @@ URL 빌더를 활용하면 함수명으로 간편하게 해당 함수에 매핑�
 
 해당 방식을 이용하면 함수명으로  URL 주소를 받아오기 때문에 특정 페이지의 URL 주소를 변경하더라도 해당 페이지와 연계되어 있는 함수들을 일일이 수정해야 할 필요가 없어집니다.
 
-```
+```python
 function1_url = url_for("function1")
 ```
 
@@ -67,7 +67,7 @@ function1_url = url_for("function1")
 
 그리고 지정된 URL 주소로 이동하는 _redirect_ 함수와 함께 사용하면 해당 페이지로 이동하는 기능도 구현할 수 있습니다.
 
-```
+```python
 @app.route("/function1")
 def function1():
     return redirect(url_for("function2")
@@ -77,7 +77,7 @@ def function1():
 
 또한 아래처럼 변수를 전달할 수도 있고 절대 URL이나 https UR 반환 받을 수도 있습니다.
 
-```
+```python
 url_for("userpage", username=username) # 변수 전달
 url_for("function1", _extrenal=True) # 절대 URL 반환
 url_for("function1", _scheme='https', _external=True) # HTTPS URL 반환
@@ -89,7 +89,7 @@ url_for("function1", _scheme='https', _external=True) # HTTPS URL 반환
 
 Flask에서는 URL 주소에도 타입 힌트를 사용 할 수 있습니다.
 
-```
+```python
 @app.route("/address/<int:num1>/<int:num2>")
 ```
 
