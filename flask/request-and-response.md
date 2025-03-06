@@ -11,6 +11,7 @@ Flask에서는 request 객체를 통해 요청 데이터에 접근 가능하며,
 ```python
 from flask import Flask, request
 
+
 @app.route('/main')
 def main():
     url = request.url # 해당 페이지의 URL 주소
