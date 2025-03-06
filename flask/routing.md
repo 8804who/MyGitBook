@@ -44,7 +44,7 @@ HTTP 메서드를 지정할 때는&#x20;
 
 ```python
 @app.route("/address",method=['GET','POST']
-def method():
+def method(request):
     if request.method == "GET":
         return "It's GET"
     if request.method == "POST":
