@@ -10,3 +10,7 @@
 * [Static Files](flask/static-files.md)
 * [Blueprint](flask/blueprint.md)
 * [Session](flask/session.md)
+
+***
+
+* [Computer Architecure](computer-architecure.md)
