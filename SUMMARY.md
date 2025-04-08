@@ -11,6 +11,6 @@
 * [Blueprint](flask/blueprint.md)
 * [Session](flask/session.md)
 
-***
+### 컴퓨터구조
 
-* [Computer Architecure](computer-architecure.md)
+* [컴퓨터의 핵심 부품](컴퓨터구조/컴퓨터의-핵심-부품.md)
