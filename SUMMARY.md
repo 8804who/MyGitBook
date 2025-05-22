@@ -48,3 +48,4 @@
 * [TCP와 UDP](네트워크/TCP와%20UDP.md)
 * [DNS와 URI](네트워크/DNS와%20URI.md)
 * [HTTP](네트워크/HTTP.md)
+* [네트워크 안정화](네트워크/네트워크%20안정화.md)
