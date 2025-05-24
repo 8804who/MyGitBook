@@ -51,4 +51,4 @@
 * [DNS와 URI](<네트워크/DNS와 URI.md>)
 * [HTTP](네트워크/HTTP.md)
 * [네트워크 안정화](<네트워크/네트워크 안정화.md>)
-* [프록시](undefined-2/undefined-10.md)
+* [프록시](네트워크/프록시.md)
