@@ -141,6 +141,38 @@
   - 또한 각 Row의 Pivot Entry들이 계단 형식을 이루어져야함
 - Reduced Row Echelon Form
   - 만약 Row Echelon Form의 각 pivot column에서 pivot entry를 제외한 모든 Entry가 0이라면 Reduced Row Echelon Form이다.<br>
-  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-.png)
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Reduced%20Row%20Echelon%20Form-예시.png)
   - 위와 같이 각 Pivot Entry가 포함된 Column에서 Pivot Entry를 제외한 모든 Entry가 0인 경우, Reduced Row Echelon Form라고 할 수 있다.
   - Column 2의 Row 1이 -2가 있지만 해당 entry는 pivot entry가 아니므로 Column 2는 pivot column이 아님, 따라서 해당 Column과 상관 없이 Reduced Row Echelon Form이 됨
+
+### Gauss-Jordan elimination
+- Gauss-Jordan elimination은 Matrix를 Reduced Row Echelon Form으로 만드는 알고리즘
+- 순서
+  1. Matrix의 각 Row를 각각의 공통 인수를 이용해 수를 간단히 만들어 준다.(필수 과정은 아님)
+  2. 만약 첫번째 Row의 첫 Entry가 0일 경우, 첫 Entry가 0이 아닌 다른 Row와 순서를 바꾼다.
+  3. 첫번째 Row에 Row 연산을 적용해 첫 Entry를 1로 만들어줍니다.
+  4. 첫번째 Row를 다른 Row에 더하거나 빼서 모든 Row의 첫 Entry를 0으로 만들어줍니다.
+  5. Matrix가 Reduced Row Echelon Form이 될 때까지 2~4번 과정을 반복합니다.
+- 예시<br>
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%201.png)
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%202.png)
+  - 가장 먼저 2번째 Row를 공통 인수인 5로 나누어줌(1번 과정)
+  - Row 1의 Entry 1이 0이 아니므로 2번 과정은 생략<br>
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%203.png)
+  - Row 1에 -1을 곱해 Entry 1을 1로 만들어줌(3번 과정)
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%204.png)
+  - Row 2에서 Row 1을 빼서 Entry 1을 0으로 만들어줌(4번 과정)<br>
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%205.png)
+  - Row 3에서 (2 ⨉ Row 1)을 빼서 Entry 1을 0으로 만들어줌(4번 과정)
+  - 위 과정을 통해 Column이 1,0,0이 되었으니 이후 Row들에도 같은 연산을 적용<br>
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%206.png)
+  - Row 2를 4로 나누어 Entry2를 1로 만들어줌(3번 과정)<br>
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%207.png)
+  - Row 1에서 (5 ⨉ Row 2)를 빼서 Entry 2를 0으로 만들어줌(4번 과정)<br>
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%208.png)
+  - Row 3에서 (5 ⨉ Row 2)를 더해서 Entry 2를 0으로 만들어줌(4번 과정)<br>
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%209.png)
+  - Row 3에 -1을 곱해 Entry3을 1로 만들어줌(3번 과정)<br>
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%2010.png)
+  - Row 1에 Row 3을 더해 Entry3을 0으로 만들어줌(4번 과정)
+  - 위 과정을 통해 Matrix를 Reduced Row Echelon Form로 만들었음
