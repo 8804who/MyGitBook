@@ -55,6 +55,6 @@
 * [암호화와 복호화](네트워크/암호화와%20복호화.md)
 * [무선 네트워크](네트워크/무선%20네트워크.md)
 
-## 선형대수학
+## Linear Algebra
 
-* [단일 행렬 연산](<선형대수학/단일 행렬 연산.md>)
+* [Operations on one matrix](<Linear Algebra/Operations on one matrix.md>)
