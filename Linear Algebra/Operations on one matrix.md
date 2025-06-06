@@ -176,3 +176,17 @@
   ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Gause-Jordan%20elimination-예시%2010.png)
   - Row 1에 Row 3을 더해 Entry3을 0으로 만들어줌(4번 과정)
   - 위 과정을 통해 Matrix를 Reduced Row Echelon Form로 만들었음
+
+### Number of solutions
+- Solution이 하나인 경우
+  - Matrix를 reduced row-echelon matrix로 만들었을 때 아래와 같은 형태로 만들 수 있으면 하나의 solution만 존재
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Numbers%20of%20solutions-Solution이%20하나인%20경우-예시.png)
+- Solution이 없는 경우
+  - Matrix를 reduced row-echelon matrix로 만들었을 때 아래와 같은 형태가 될 경우
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Numbers%20of%20solutions-Solution이%20없는%20경우-예시.png)
+  - 변수 $$c != 0$$이라고 가정하면 $$0z = c$$가 되는데, 이 경우는 모순이 발생하므로 solution이 존재하지 않음
+  - 만약 이런 경우가 발생할 경우 방정식들이 평행하다는 것을 의미(한  점에서 만나지 않는다)
+- Solution이 무수히 많은 경우
+  - Matrix를 reduced row-echelon matrix로 만들었을 때 아래처럼 0만 존재하는 행이 있을 경우
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20one%20matrix-Numbers%20of%20solutions-Solution이%20무수히%20많은%20경우-예시.png)
+  - $$0z=0$$은 모든 $$z$$에 대해 성립하므로 solution이 무수히 많이 존재
