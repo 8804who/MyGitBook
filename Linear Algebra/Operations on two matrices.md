@@ -8,3 +8,7 @@
 - Matrix에 Scalar를 곱해주는 연산도 수행 가능
 - Matrix의 각 Entry에 Scalar를 곱해주는 방식으로 연산 수행
 ![alt text](../images/Linear%20Algebra-Operations%20on%20two%20matrices-Scalar%20multipication-연산%20예시.png)
+
+### Zero Matrix
+- Zero Matrix는 모든 entry가 0으로 이루어진 matrix
+- 서로 더했을 때 결과값이 Zero Matrix가 되는 Matrix K와 -K를 opposite matrix라고 한다.
