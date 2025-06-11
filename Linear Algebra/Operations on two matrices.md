@@ -27,3 +27,10 @@
 - A·B != B·A
 - (AB)C = A(BC)
 - A(B+C) = AB+AC
+
+### Identity Matrix
+- Identity Matrix는 어떤 Matrix에 곱했을 때 그 Matrix의 값이 그대로 나오는 Matrix
+- Identity Matrix는 반드시 square matrix여야하고 대각선의 entry들이 1, 나머지 entry들은 모두 0으로 이루어져 있다.
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20two%20matrices-Identity%20Matrix%20예시.png)
+- Identity Matrix와 다른 Matrix A를 곱하면 아래와 같이 Matrix A가 그대로 나온다.
+  ![alt text](../images/Linear%20Algebra-Operations%20on%20two%20matrices-Identity%20Matrix%20연산%20예시.png)
