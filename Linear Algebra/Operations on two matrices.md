@@ -34,3 +34,7 @@
   ![alt text](../images/Linear%20Algebra-Operations%20on%20two%20matrices-Identity%20Matrix%20예시.png)
 - Identity Matrix와 다른 Matrix A를 곱하면 아래와 같이 Matrix A가 그대로 나온다.
   ![alt text](../images/Linear%20Algebra-Operations%20on%20two%20matrices-Identity%20Matrix%20연산%20예시.png)
+
+### Elimination Matrix
+- Elimination Matrix는 Matrix A에 곱했을 때 결과값이 Identity Matrix가 되는 Matrix
+- 이후에 Inverse Matrix라는 이름으로 다시 배울 예정
