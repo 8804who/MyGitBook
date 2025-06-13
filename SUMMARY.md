@@ -59,3 +59,4 @@
 
 * [Operations on one matrix](<Linear Algebra/Operations on one matrix.md>)
 * [Operations on two matrices](<Linear Algebra/Operations on two matrices.md>)
+* [Matrices as vectors](<Linear Algebra/Matrices as vectors.md>)
