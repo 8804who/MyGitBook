@@ -31,3 +31,16 @@
 - Basis Vector
   - Basis Vector는 Unit Vector의 특별한 형태 중 하나
   - Basis Vector는 (1, 0)이나 (0, 1, 0)처럼 하나의 요소만 1이고 나머지는 모두 0인 Vector
+
+### Span of vector set
+- vector set의 span은 vector들의 linear combination을 통해 표현할 수 있는 vector들의 범위
+- Linear Combination
+  - Linear Combination은 vector들을 결합하는 것으로 vector i가 (1,0), vector j가 (0,1)이라고 하면 13i+2j로 (13,2)의 vector를 구하는 연산
+  - 이런식으로 각각의 vector들을 결합해서 다양한 vector들을 만들 수 있다
+
+### Span, and linear independence
+- Linear Indepence는 vector set의 어느 한 vector가 다른 벡터들을 이용해 만들 수 있는 지 여부
+- 2차원 공간에서는 Linear Indepence한 2개의 vector가 있으면 모든 2차원 vector 표현 가능
+- 3차원 공간에서는 Linear Indepence한 3개의 vector가 있으면 모든 3차원 vector 표현 가능
+- 차원의 크기와 Linear Indepence한 vector의 수가 같으면 해당 차원의 모든 vector 표현 가능
+- 따라서 N차원에서는 N개 이상의 vector가 Linear Indepence 할 수 없다
