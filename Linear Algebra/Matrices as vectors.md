@@ -44,3 +44,10 @@
 - 3차원 공간에서는 Linear Indepence한 3개의 vector가 있으면 모든 3차원 vector 표현 가능
 - 차원의 크기와 Linear Indepence한 vector의 수가 같으면 해당 차원의 모든 vector 표현 가능
 - 따라서 N차원에서는 N개 이상의 vector가 Linear Indepence 할 수 없다
+
+### Linear Indepencence in $$R^2$$
+- Linear dependence
+  - vector가 서로 Linear dependence하다는 것은 특정 vector들의 조합을 통해 해당 vector를 만들 수 있다는 것
+  - ![alt text](../Linear%20Algebra/images/Matrices%20as%20vectors-Linear%20Indepence%20in%20r2-two%20vectors.png)
+  - 위 $$v_1⨉4=v_2$$이므로 두 vector는 서로 Linear dependence하다
+- 만약 2차원 공간에서 3개 이상의 vector가 있으면 무조건 linear dependence하다
