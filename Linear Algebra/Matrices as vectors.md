@@ -45,9 +45,19 @@
 - 차원의 크기와 Linear Indepence한 vector의 수가 같으면 해당 차원의 모든 vector 표현 가능
 - 따라서 N차원에서는 N개 이상의 vector가 Linear Indepence 할 수 없다
 
-### Linear Indepencence in $$R^2$$
+### Linear Indepencence
 - Linear dependence
   - vector가 서로 Linear dependence하다는 것은 특정 vector들의 조합을 통해 해당 vector를 만들 수 있다는 것
-  - ![alt text](../Linear%20Algebra/images/Matrices%20as%20vectors-Linear%20Indepence%20in%20r2-two%20vectors.png)
+  - ![alt text](../Linear%20Algebra/images/Matrices%20as%20vectors-Linear%20Indepence.png)
   - 위 $$v_1⨉4=v_2$$이므로 두 vector는 서로 Linear dependence하다
 - 만약 2차원 공간에서 3개 이상의 vector가 있으면 무조건 linear dependence하다
+
+### Linear Subspaces
+- Vector space들을 이용해 subspace를 정의할 수 있다
+- N차원 subspace는 아래의 조건들을 만족하는 N차원 space이다
+- Subspace의 조건
+  - 1. zero vector를 포함하여야 한다
+  - 2. Scalar multiplication에 닫혀있어야 한다
+    - Subspace에 포함된 vector $$v$$에 Scalar $$s$$를 곱한 $$sv$$도 Subspace에 포함되어 있어야한다
+  - 3. Addition에 닫혀있어야 한다
+    - Subspace에 포함된 vector들을 합쳐서 만든 vector도 Subspace에 포함되어 있어야한다
