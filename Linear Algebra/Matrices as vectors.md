@@ -61,3 +61,7 @@
     - Subspace에 포함된 vector $$v$$에 Scalar $$s$$를 곱한 $$sv$$도 Subspace에 포함되어 있어야한다
   - 3. Addition에 닫혀있어야 한다
     - Subspace에 포함된 vector들을 합쳐서 만든 vector도 Subspace에 포함되어 있어야한다
+
+### Spans as subspaces
+- Vector set의 span은 해당 vector set의 linear combination의 set
+- Vector set의 span은 언제나 유효한 subspace이다
