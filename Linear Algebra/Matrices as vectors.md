@@ -65,3 +65,7 @@
 ### Spans as subspaces
 - Vector set의 span은 해당 vector set의 linear combination의 set
 - Vector set의 span은 언제나 유효한 subspace이다
+
+### Basis
+- 특정 vector space를 span할 수 있는 linear independent한 vector들의 set이 있을 때, 해당 vector set이 특정 vector space의 basis라고 할 수 있다.
+- 특정 space의 basis vector set은 해당 space를 span하고 linear independent하다
