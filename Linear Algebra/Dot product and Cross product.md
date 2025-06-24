@@ -17,3 +17,9 @@
 - 만약 $$||u+v||=||u||+||v||$$일 경우 아래 그림과 같이 vector $$u와$$ $$v$$는 동일선상에 존재하므로 linear dependent한 상태
 ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Vector%20triangle%20inequality2.png)
 - Vector triangle inequality는 dimension에 상관 없이 사용 가능
+
+### Angle between vectors
+- 두 vector의 내적은 두 vector 각각의 길이와 두 vector 사이의 각도의 코사인 값을 곱한 값
+![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Angle%20between%20vectors.png)
+- 두 vector가 서로 수직(perpendicular)인 경우 $$cos(90º) = 0$$이므로 두 vector의 내적은 0
+- 두 vector가 수직인 경우 두 vecotr가 직교(orthogonal)한다고 한다.
