@@ -23,3 +23,12 @@
 ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Angle%20between%20vectors.png)
 - 두 vector가 서로 수직(perpendicular)인 경우 $$cos(90º) = 0$$이므로 두 vector의 내적은 0
 - 두 vector가 수직인 경우 두 vecotr가 직교(orthogonal)한다고 한다.
+
+### Equation of a plane, and normal vectors
+- Plane은 3차원 공간에서의 평평한 도형
+- Plane은 어느 한 normal vector와 perpendicular한 모든 vector들의 set
+- plane의 equation은 $$Ax+By+Cz=D$$ 형식이고 normal vector n이 $$(A, B, C)$$라고 하면 plane의 equation은 $$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$$이라고 할 수 있다
+- 두 vector가 perpendicular할 경우 dot proudct 값은 0이 되므로 어느 한 normal vector와의 내적값이 0인 vector들의 set은 plane이라고 할 수 있다
+- 만약 어느 한 plane이 $$Ax+By+Cz=D$$일 경우, 해당 plane의 normal vector n은 $$(A, B, C)$$이다
+- 위가 성립하는 이유는 $$D$$가 어느 한 plane에 대해서 불변이기 때문이다. 어떤 plane에 대해 $$D$$는 shift할 수 있지만, 그래도 normal vector는 변하지 않는다.
+- $$Ax+By+Cz=0$$, $$Ax+By+Cz=-7$$, $$Ax+By+Cz=e$$ 모두 같은 normal vector를 가지고 plane의 위치가 shift하는 것이다 
