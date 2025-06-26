@@ -32,3 +32,20 @@
 - 만약 어느 한 plane이 $$Ax+By+Cz=D$$일 경우, 해당 plane의 normal vector n은 $$(A, B, C)$$이다
 - 위가 성립하는 이유는 $$D$$가 어느 한 plane에 대해서 불변이기 때문이다. 어떤 plane에 대해 $$D$$는 shift할 수 있지만, 그래도 normal vector는 변하지 않는다.
 - $$Ax+By+Cz=0$$, $$Ax+By+Cz=-7$$, $$Ax+By+Cz=e$$ 모두 같은 normal vector를 가지고 plane의 위치가 shift하는 것이다 
+
+### Cross product
+- Cross product는 두 Vector가 얼마나 다른 방향을 향하는지 표시
+- Cross product는 두 Vector와 모두 직교하는 Vector
+- Cross product는 determinant를 통해 구할 수 있고 두 vecotr $$a=(a_1,a_2,a_3), b=(b_1,b_2,b_3)$$의 Cross product는 아래와 같이 구할 수 있다
+![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Cross%20product1.png)
+- determinant의 계산법
+  - 위 예시를 보면 i, j, k의 부호가 +,-,+인 것을 알 수 있다. 이는 coefficient의 부호는 아래처럼 번갈아가며 +와 -가 등장한다
+  ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Cross%20product2.png)
+  - 위 예시에서 i, j, k는 각 부분 determinant의 coefficient가 되었는데 부분 determinant를 구할때는 해당 coefficient와 같은 행과 열에 등장하는 요소들을 제외한 요소들의 determinant를 구해야한다.
+  ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Cross%20product3.png)
+  ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Cross%20product4.png)
+  ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Cross%20product5.png)
+- Cross product vector의 길이
+  - Cross product vector의 길이는 두 vector 각각의 길이와 두 vector 사이의 각도의 사인 값을 곱한 값
+  ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Cross%20product6.png)
+  - Cross product vector의 길이는 두 vector가 그리는 평행사변형의 넓이와 동일
