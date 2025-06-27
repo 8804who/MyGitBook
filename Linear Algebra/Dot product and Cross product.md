@@ -1,5 +1,4 @@
 ### Dot product
-- Dot product는 두 Vector가 얼마나 같은 방향을 향하는지 표시
 - Dot product는 두 Vector에서 같은 순서의 요소들을 곱한 후 그 값들을 모두 합하여 구한다
 ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Dot%20product%20예시.png)
 - Dot product는 교환 법칙, 분배 법칙, 결합 법칙이 성립
@@ -34,7 +33,6 @@
 - $$Ax+By+Cz=0$$, $$Ax+By+Cz=-7$$, $$Ax+By+Cz=e$$ 모두 같은 normal vector를 가지고 plane의 위치가 shift하는 것이다 
 
 ### Cross product
-- Cross product는 두 Vector가 얼마나 다른 방향을 향하는지 표시
 - Cross product는 두 Vector와 모두 직교하는 Vector
 - Cross product는 determinant를 통해 구할 수 있고 두 vecotr $$a=(a_1,a_2,a_3), b=(b_1,b_2,b_3)$$의 Cross product는 아래와 같이 구할 수 있다
 ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Cross%20product1.png)
@@ -49,3 +47,7 @@
   - Cross product vector의 길이는 두 vector 각각의 길이와 두 vector 사이의 각도의 사인 값을 곱한 값
   ![alt text](../Linear%20Algebra/images/Dot%20product%20and%20Cross%20product-Cross%20product6.png)
   - Cross product vector의 길이는 두 vector가 그리는 평행사변형의 넓이와 동일
+
+### Dot and Cross products as opposite idea
+- Dot product는 두 Vector가 얼마나 같은 방향을 향하는지 표시
+- Cross product는 두 Vector가 얼마나 다른 방향을 향하는지 표시
