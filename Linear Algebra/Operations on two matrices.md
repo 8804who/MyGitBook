@@ -21,8 +21,8 @@
 ![alt text](../Linear%20Algebra/images/Linear%20Algebra-Operations%20on%20two%20matrices-Matrix%20multipication-연산%20예시%201.png)
  - 만약 2⨉2 Matrix 간의 dot product를 수행하면 위와 같이 값을 구할 수 있다.
 - dot product 연산 예시
-![alt text](../Linear Algebra/images/Linear%20Algebra-Operations%20on%20two%20matrices-Matrix%20multipication-연산%20예시%202.png)
-  ![alt text](..Linear Algebra/images/Linear%20Algebra-Operations%20on%20two%20matrices-Matrix%20multipication-연산%20예시%203.png)
+  ![alt text](../Linear%20Algebra/images/Linear%20Algebra-Operations%20on%20two%20matrices-Matrix%20multipication-연산%20예시%202.png)
+  ![alt text](..Linear%20Algebra/images/Linear%20Algebra-Operations%20on%20two%20matrices-Matrix%20multipication-연산%20예시%203.png)
 - A·B != B·A
 - (AB)C = A(BC)
 - A(B+C) = AB+AC
