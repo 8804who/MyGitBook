@@ -21,3 +21,11 @@
 - 위 식에서 $$x_1 = 3x_3$$, $$x_2=-3x_3$$이므로 x1,x2,x3의 vector는 아래와 같이 나타낼 수 있다.  
 ![alt text](../Linear%20Algebra/images/Matrix-vector%20products-Null%20space%20of%20a%20matrix%205.png)
 - 위와 같이 [3, -3, 1] vector는 A의 zero-vecotr이고 [3, -3, 1] vector의 linear combination들의 set이 null space가 된다
+
+### Column space and Ax=b
+- Column space
+  - 어느 한 matrix의 Column space는 그 matrix의 column vector들로 만들 수 있는 모든 linear combination들로 정의할 수 있다
+  - 만약 matrix A, vector x와 b가 Ax=b와 같은 관계이고, b가 A의 column들의 linear combination이면 이 식이 성립하는 vector x를 찾을 수 있다
+- Linear independence and the null space
+  - 만약 matrix A의 column vector들이 linear independent하면 그 column vector들이 column space의 basis를 형성한다고 할 수 있다
+  - 반대로 matrix A의 column vector들이 linear dependent하면 그 column vector들은 basis를 형성할 수 없다.
