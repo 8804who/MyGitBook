@@ -29,3 +29,12 @@
 - Linear independence and the null space
   - 만약 matrix A의 column vector들이 linear independent하면 그 column vector들이 column space의 basis를 형성한다고 할 수 있다
   - 반대로 matrix A의 column vector들이 linear dependent하면 그 column vector들은 basis를 형성할 수 없다.
+
+### Solving Ax=b
+- Complementary solution
+  - Ax=0이라는 식에대한 Complementary solution은 Ax=0을 만족하는 vector set x를 뜻한다고 할 수 있다
+- Particular solution
+  - Ax=0대신 Ax=b라는 식이 있을 때, 이 식을 만족시키는 vecotr x을 Ax=b의 Particular solution이라고 할 수 있다
+- General solution
+  - Ax=b에 대한 General solution은 Ax=0과 Ax=b를 만족시키는 Complementary solution과 Particular solution의 합이다
+- 
