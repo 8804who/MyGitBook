@@ -37,4 +37,3 @@
   - Ax=0대신 Ax=b라는 식이 있을 때, 이 식을 만족시키는 vecotr x을 Ax=b의 Particular solution이라고 할 수 있다
 - General solution
   - Ax=b에 대한 General solution은 Ax=0과 Ax=b를 만족시키는 Complementary solution과 Particular solution의 합이다
-- 
