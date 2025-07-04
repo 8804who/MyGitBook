@@ -37,3 +37,13 @@
   - Ax=0대신 Ax=b라는 식이 있을 때, 이 식을 만족시키는 vecotr x을 Ax=b의 Particular solution이라고 할 수 있다
 - General solution
   - Ax=b에 대한 General solution은 Ax=0과 Ax=b를 만족시키는 Complementary solution과 Particular solution의 합이다
+
+### Dimensionality, nullity, rank
+- Nullity
+  - Matrix A의 null space의 dimension을 A의 nullity라고 한다
+  - Nullity는 연립방정식의 free variables의 개수로 주어진다
+  - Free variable의 개수로 nullity를 구할 수 있는 이유는 matrix의 모든 free variable은 null space의 한 independent vector와 연관이 되어있기 때문이다
+- Rank
+  - Matrix A의 column spcae의 dimension을 rank라고한다
+  - Matrix의 rank는 연립방정식의 pivot variable의 개수로 주어진다
+  - Pivot variable의 개수로 rank를 구할 수 있는 이유는 matrix의 모든 pivot variable이 column spcae의 한 independent vecotr와 연관이 되어있기 때문이다
