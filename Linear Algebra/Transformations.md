@@ -14,3 +14,14 @@
 - Image and preimage
   - 어떤 transformation이 적용되기 전의 vector를 preimage라고 한다
   - 그리고 transformation이 적용된 후의 vector를 image라고 한다
+
+### Preimage, image, kernel
+- Transformation as subspaces
+  - Transformation은 언제나 addition과 multiplication에 닫혀있다
+  - 따라서 Transformation은 언제나 subspace이다
+  - 예를 들어 Q라는 space에 T라는 transformation을 적용하면 T(Q)는 subspace라고 할 수 있다
+- Finding the preimage from the image
+  - 만약 A의 subset a에 transformation을 적용한 결과가 B의 subset b라고하면 T(a)를 a의 image라고 한다
+  - 만약 반대로 A에서 b로 mapping되는 모든 point의 set을 b의 preimage라고 한다
+- Kernel
+  - Transformation 결과가 zero vector인 모든 vector들의 set을 kernel이라하고 Ker(T)라고 표기한다
