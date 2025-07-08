@@ -29,3 +29,12 @@
 ### Linear transformations as matrix-vector products
 - Linear transformation은 matrix와 vector의 product로도 볼 수 있다
 - 예를 들어 2차원의 vector(2⨉1)를 3차원의 vector(3⨉1)로 transform한다고하면 해당 vector에 transformation matrix(3⨉2)를 multiply하여 (3⨉2)⨉(2⨉1)의 결과로 (3⨉1)의 결과를 얻을 수 있다
+
+### Linear transformation as rotation
+- Rotation matrix를 통해 vetor를 회전시키는 연산도 가능
+- 2차원 vector를 θ도만큼 회전 시키는 matrix는 아래와 같다
+![alt text](./images/Transformations-Linear%20transformation%20as%20rotation%201.png)
+- 3차원에서는 회전을 할 때 한 축을 기준으로 회전하고, 각 축을 기준으로 3차원 vector를 θ도만큼 회전 시키는 matrix는 아래와 같다. 
+![alt text](./images/Transformations-Linear%20transformation%20as%20rotation%202.png)
+- $$Rot_θ(u+v) = Rot_θ(u)+Rot_θ(v)$$가 성립
+- $$Rot_θ(c⨉u) = c⨉Rot_θ(u)$$가 성립 
