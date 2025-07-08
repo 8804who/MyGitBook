@@ -25,3 +25,7 @@
   - 만약 반대로 A에서 b로 mapping되는 모든 point의 set을 b의 preimage라고 한다
 - Kernel
   - Transformation 결과가 zero vector인 모든 vector들의 set을 kernel이라하고 Ker(T)라고 표기한다
+
+### Linear transformations as matrix-vector products
+- Linear transformation은 matrix와 vector의 product로도 볼 수 있다
+- 예를 들어 2차원의 vector(2⨉1)를 3차원의 vector(3⨉1)로 transform한다고하면 해당 vector에 transformation matrix(3⨉2)를 multiply하여 (3⨉2)⨉(2⨉1)의 결과로 (3⨉1)의 결과를 얻을 수 있다
