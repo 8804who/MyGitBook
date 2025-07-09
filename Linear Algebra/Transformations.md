@@ -38,3 +38,12 @@
 ![alt text](./images/Transformations-Linear%20transformation%20as%20rotation%202.png)
 - $$Rot_θ(u+v) = Rot_θ(u)+Rot_θ(v)$$가 성립
 - $$Rot_θ(c⨉u) = c⨉Rot_θ(u)$$가 성립 
+
+### Adding and scaling linear transformations
+- Sums of transformations
+  - 만약 n차원에서 m차원으로 변환하는 두 개의 transformation S와 T가 있을 경우, S(v)+T(v)=(S+T)(v)와 같다
+  - 두 matrix의 addtion 결과로 나온 matrix를 transformation matrix로 사용한 transformation U(v) = S(v)+T(v)이다
+- Scaled transformations
+  - Transformation을 scalar를 통해 multiply하는 연산도 가능
+  - T(x)를 scalar c로 multiply하면 cT(x)가 된다
+  - T()의 transformation matrix를 scalar로 multiply하면 새로운 transformation matrix를 얻을 수 있다 
