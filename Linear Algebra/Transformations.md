@@ -47,3 +47,26 @@
   - Transformation을 scalar를 통해 multiply하는 연산도 가능
   - T(x)를 scalar c로 multiply하면 cT(x)가 된다
   - T()의 transformation matrix를 scalar로 multiply하면 새로운 transformation matrix를 얻을 수 있다 
+
+### Projections as linear transformation
+- Projection a vector onto a line
+  - 2차원 공간의 한 line L위에  vector v를 projection하는 것은 $$Proj_L(v)$$로 표현하고 L위에서의 vector v의 그림자를 구한다고 생각할 수 있다
+  - 2차원 공간의 한 line L위에 vector x가 있다면 $$Proj_L(v)$$는 vector x의 scaeld version의 하나로 볼 수 있고 $$Proj_L(v)=cx$$로도 생각할 수 있다
+  - 위 식에서 c는 $$c={{vx}\over{xx}}x$$로 구할 수 있다
+- Normalizing the vector that defines the line
+  - Line L 위의 vector x를 normalize하여 unit vector처럼 만들 수 있다
+  - 먼저 $$Proj_L(v)$$의 식을 아래처럼 변환할 수 있다
+  ![alt text](./images/Transformations-Projections%20as%20linear%20transformation%201.png)
+  - 만약 x를 1로 normalize하면 식을 아래처럼 변환할 수 있다
+  ![alt text](./images/Transformations-Projections%20as%20linear%20transformation%202.png)
+  - 위 식에서 x를 unit vector u로 변환하면 아래와 같이 식이 변환된다
+  ![alt text](./images/Transformations-Projections%20as%20linear%20transformation%203.png)
+  - 예를 들어 vector x가 (1, 3)이라고하면 vector는 아래처럼 normalize할 수 있다
+  ![alt text](./images/Transformations-Projections%20as%20linear%20transformation%204.png)
+  ![alt text](./images/Transformations-Projections%20as%20linear%20transformation%205.png)
+  - 그리고 v의 projection이 (0,2)라고하면 아래와 같은 결과를 얻을 수 있다
+  ![alt text](./images/Transformations-Projections%20as%20linear%20transformation%206.png)
+- Projection is a linear transformation
+  - $$Proj_L(v)$$은 항상 linear transformation으로 볼 수 있다
+  - Projection도 linear transformation이기 때문에 addition과 scalar multiplication에 모두 닫혀있다
+  - 또한 Projection도 matrix-vector product로 표현할 수 있고 $$Proj_L(v)=(vu)u=Av$$로 볼 수 있고 결국 matrix A와 v의 product로 볼 수 있다
