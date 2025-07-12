@@ -70,3 +70,9 @@
   - $$Proj_L(v)$$은 항상 linear transformation으로 볼 수 있다
   - Projection도 linear transformation이기 때문에 addition과 scalar multiplication에 모두 닫혀있다
   - 또한 Projection도 matrix-vector product로 표현할 수 있고 $$Proj_L(v)=(vu)u=Av$$로 볼 수 있고 결국 matrix A와 v의 product로 볼 수 있다
+
+### Compositions of linear transformation
+- Linear transformation S와 T가 있을 때, 이 두 linear transformation의 결합 $$T(S(x))$$도 하나의 linear transformation으로 볼 수 있다
+- Linear transformation의 결합도 addition과 multiplication에 모두 닫혀있다
+- Linear transformation $$T(x)=Ax$$처럼 matrix-vecotr product로 생각할 수 있으므로 $$TS(x)=T(S(x))=T(Ax)=BAx=Cx$$처럼 표현할 수 있다
+- 위 식에서 A는 S의 transformation matrix, B는 T의 transformation matrix, C는 S와 T를 결합한 transformation의 transformation matrix로 볼 수 있다
