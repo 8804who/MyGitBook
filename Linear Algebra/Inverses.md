@@ -24,3 +24,9 @@
   - Rank(M)=m=n이라는 말은 row와 column의 크기가 같다는 말이다.
   - 따라서 Square matrix만이 surjective하면서 injective할 수 있으므로 square matrix만이 invertible할 수 있다
   - 단, square matrix라고 반드시 invertible하지는 않다
+
+### Inverse transformations are linear
+- Inverse transformation 역시도 linear transformation
+- 따라서 inver transformation $$T^{-1}$$은 addition과 multiplication에 닫혀있다
+- Inverse transformation도 linear transformation이므로 matrix-vector product로 표현 가능, $$T^{-1}(x)=A^{-1}x$$
+- Inverse transformation의 matrix를 찾는 것은 일반 matrix의 inverse matrix를 구하는 방법과 동일
