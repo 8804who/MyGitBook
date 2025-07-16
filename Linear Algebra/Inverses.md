@@ -30,3 +30,13 @@
 - 따라서 inver transformation $$T^{-1}$$은 addition과 multiplication에 닫혀있다
 - Inverse transformation도 linear transformation이므로 matrix-vector product로 표현 가능, $$T^{-1}(x)=A^{-1}x$$
 - Inverse transformation의 matrix를 찾는 것은 일반 matrix의 inverse matrix를 구하는 방법과 동일
+
+### Matrix inverses, and invertible and sibgular matrices
+- Matrix inverse는 matrix의 division으로도 생각할 수 있다.
+- 실수 $$R$$과 $$R$$의 역수 $$R^{-1}$$의 곱이 1인것처럼 matrix도 $$M$$과 $$M^{-1}$$이 idnetity matrix I가 된다고 생각할 수 있다
+- Inverse matrix를 찾는 방법은 Matrix를 Idnentity Matrix로 augment한 후 reduced row-echelon form을 구하는 방식이 있다
+- 이외에도 determinant을 이용하여 inverse matrix를 구하는 방법도 있다
+![alt text](image.png)
+- 위는 matrix M의 determinant |M|을 이용해 inverse matrix를 구하는 방법이다
+- 위 방식에서 오른쪽 matrix의 각 요소를 |M|으로 나누어 inverse matrix를 구한다. 그런데 만약 |M|이 0이라면 계산이 불가능할 것이다. 따라서 |M|이 0인 경우 그 matrix는 invertible하지 않다
+- 만약 matrix가 invertible하지 않은 경우, 해당 matrix를 singular matrix라고 한다
