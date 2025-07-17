@@ -62,3 +62,5 @@
 * [Matrices as vectors](<Linear Algebra/Matrices as vectors.md>)
 * [Dot product and Cross product](<Linear Algebra/Dot product and Cross product.md>)
 * [Matrix-vector prodcuts](<Linear Algebra/Matrix-vector products.md>)
+* [Transformations](<Linear Algebra/Transformations.md>)
+* [Inverse](<Linear Algebra/Inverses.md>)
