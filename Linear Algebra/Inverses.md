@@ -40,3 +40,10 @@
 - 위는 matrix M의 determinant |M|을 이용해 inverse matrix를 구하는 방법이다
 - 위 방식에서 오른쪽 matrix의 각 요소를 |M|으로 나누어 inverse matrix를 구한다. 그런데 만약 |M|이 0이라면 계산이 불가능할 것이다. 따라서 |M|이 0인 경우 그 matrix는 invertible하지 않다
 - 만약 matrix가 invertible하지 않은 경우, 해당 matrix를 singular matrix라고 한다
+
+### Solving systems with inverse matrix
+- Inverse matrix를 이용해 system을 푸는 방법도 있음
+- Linear system은 coefficient matrix와 변수 column vecotr(x,y)의 곱과 결과값 column vector(f, g)으로 표현 가능
+- Linear system을 Coefficient matrix M과 변수 column vecotr a의 곱, 결과값 column vector b로 나타내면 $$Ma=b$$로 표현 가능
+- 만약 양변에 inverse matrix $$M^{-1}$$을 곱하면 $$M^{-1}Ma=a=M^{-1}b$$의 식을 얻을 수 있음
+- 따라서 $$M^{-1}b$$의 결과값이 각 변수의 해
