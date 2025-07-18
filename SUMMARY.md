@@ -64,3 +64,4 @@
 * [Matrix-vector prodcuts](<Linear Algebra/Matrix-vector products.md>)
 * [Transformations](<Linear Algebra/Transformations.md>)
 * [Inverse](<Linear Algebra/Inverses.md>)
+* [Determinant](<Linear Algebra/Determinant.md>)
