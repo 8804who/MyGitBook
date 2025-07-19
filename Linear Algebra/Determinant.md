@@ -25,3 +25,11 @@
   ![alt text](./images/Determinant-Determinant%205.png)
   - 위에서 묶은 entry들을 서로 곱하고 왼쪽 위에서 오른쪽 아래로 향하는 대각선은 +, 왼쪽 아래에서 오른쪽 위로 올라가는 대각선은 - 계수를 적용하여 모두 합하여주면 그 값이 determinant
   - 식으로 나타내면 $$aei+bgf+cdh-afh-bdi-ceg$$로 나타낼 수 있음
+
+### Cramer's rule for solving systems
+- Cramer's rule은 determinant를 이용해 linear system을 푸는 방식
+- 각 variable의 해는 $${D_v}\over{D}$$로 구할 수 있음
+- 여기서 $$D_v$$는 해를 구하려는 variable column에 answer column을 대입한 coefficient matrix의 determinant이고 D는 coefficient matrrix의 determinant
+- 예를 들어 아래와 같은 식의 $$D$$와 $$D_v$$ 예시는 다음과 같다.
+![alt text](./images/Determinant-Cramer's%20rule%20for%20solving%20systems%201.png)
+![alt text](./images/Determinant-Cramer's%20rule%20for%20solving%20systems%202.png)
