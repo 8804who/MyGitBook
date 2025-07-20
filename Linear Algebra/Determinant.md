@@ -33,3 +33,15 @@
 - 예를 들어 아래와 같은 식의 $$D$$와 $$D_v$$ 예시는 다음과 같다.
 ![alt text](./images/Determinant-Cramer's%20rule%20for%20solving%20systems%201.png)
 ![alt text](./images/Determinant-Cramer's%20rule%20for%20solving%20systems%202.png)
+
+### Modifying determinants
+- Multiplying a row or a column by a scalar
+  - 2⨉2 Matrix A의 determinant가 |A|일 때, A의 한 row나 column에 scalar k를 곱하여 만든 Matrix B의 determinant |B|는 k|A|와 같다
+  - A의 모든 row 또는 column에 scalar k를 곱하여만 든 Matrix B의 determinant |B|는 $$k^2|A|$$와 같다
+- Sum of two rows
+  - 만약 3개의 identical matrix A, B, C가 존재하고 각 matrix의 한 가지 row만 값이 다르고, 두 matrix의 해당 row를 합한 것이 나머지 한 matrix의 해당 row와 같을 경우, 두 matrix의 determinant의 합은 나머지 한 matrix의 derterminant와 같다
+- Swapped and duplicate rows
+  - 만약 Matrix A에서 특정 두 행의 순서를 바꾼 Matrix B의 determinant는 -|A|와 같다
+  - 그런데 만약 순서를 바꾼 두 행이 서로 같은 identical row일 경우 determinant는 변하지 않는다
+- Row operations don't change the determinant
+  - Row에 특정 scalar를 곱하는 연산 외에 다른 Row operation들은 marix의 determinant를 바꾸지 않는다
