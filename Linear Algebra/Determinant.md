@@ -45,3 +45,14 @@
   - 그런데 만약 순서를 바꾼 두 행이 서로 같은 identical row일 경우 determinant는 변하지 않는다
 - Row operations don't change the determinant
   - Row에 특정 scalar를 곱하는 연산 외에 다른 Row operation들은 marix의 determinant를 바꾸지 않는다
+
+### Upper and lower traingular matrices
+- Upper traingular matrix & Lower traingular matrix
+  - Upper triagular matrix는 대각선 아래의 모든 entry들이 0인 matrix
+  ![alt text](./images/Determinant-Upper%20and%20lower%20traingular%20matrices%201.png)
+  - Lowser triangular matrix는 대각선 위의 모든 entry들이 0인 matrix
+  ![alt text](./images/Determinant-Upper%20and%20lower%20traingular%20matrices%202.png)
+- Determinant of triangular matrices
+  - Upper traingular matrix나 Lower triangular matrix도 determinant 계산 가능
+  - Triangular matrix의 determinant는 대각선 entry들의 곱
+  - Matrix를 Triangular matrix로 변환 후 determinant를 구하는 방법도 사용 가능
