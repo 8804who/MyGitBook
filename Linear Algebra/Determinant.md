@@ -56,3 +56,9 @@
   - Upper traingular matrix나 Lower triangular matrix도 determinant 계산 가능
   - Triangular matrix의 determinant는 대각선 entry들의 곱
   - Matrix를 Triangular matrix로 변환 후 determinant를 구하는 방법도 사용 가능
+
+### Using determinants to find area
+- Matrix의 area는 그 matrix의 determinant의 절댓값과 동일
+- Matrix A의 determinant와 Transformation T의 Transformation matrix를 알면 T(A)의 area를 알 수 있음
+- 위 경우에 T(A)의 areas는 $$|Area_ADet(T)|$$와 같음
+- 이를 통해 원본 matrix의 area를 알면 그 matrix에 transformation을 적용한 후, 그 matrix의 area를 쉽게 구할 수 있음
