@@ -65,3 +65,4 @@
 * [Transformations](<Linear Algebra/Transformations.md>)
 * [Inverse](<Linear Algebra/Inverses.md>)
 * [Determinant](<Linear Algebra/Determinant.md>)
+* [Transposes](<Linear Algebra/Transposes.md>)
