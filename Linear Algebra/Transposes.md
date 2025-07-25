@@ -17,3 +17,12 @@
 - Transpose of a matrix inverse
   - 어떤 matrix가 있을 때, 그 transpose matrix의 inverse matrix는 원래 matrix의 inverse matrix를 transpose한 것과 동일 
   - $$(X^T)^{-1}=(X^{-1})^T$$
+
+### Null and column spacs of the transpose
+- Transpose는 matrix의 row와 column을 바꾸는 연산이므로 $$A^T$$의 columns space는 $$A^T$$의 column이면서 동시에 $$A$$의 row
+- 따라서 $$A^T$$의 column space를 A의 row space라고도 함
+- Row space도 column space처럼 A의 row들의 linear combination
+- $$A^T$$의 null space는 $$x^TA=O^T$$를 만족하는 vector set $$x^T$$이다
+- $$x^TA=O^T$$로 $$x^T$$가 product 연산의 왼쪽에 있으므로 left null space라고도 함
+- $$A^T$$의 column space의 dimension은 항상 A의 rank와 동일
+- $$A^T$$의 null space를 구성하기위해 필요한 vector의 개수는 A의 row 수와 rank에 따라 달라짐
