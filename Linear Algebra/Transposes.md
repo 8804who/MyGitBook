@@ -26,3 +26,8 @@
 - $$x^TA=O^T$$로 $$x^T$$가 product 연산의 왼쪽에 있으므로 left null space라고도 함
 - $$A^T$$의 column space의 dimension은 항상 A의 rank와 동일
 - $$A^T$$의 null space를 구성하기위해 필요한 vector의 개수는 A의 row 수와 rank에 따라 달라짐
+
+### The product of a matrix and its transpose
+- 만약 A의 column들이 linear indepent하면 $$A^TA$$는 invertible matrix
+- A가 m⨉n이라면 $$A^T$$는 n⨉m이므로 $$A^TA$$는 항상 square matrix
+- 따라서 columnne들이 linear independent하고 square matrix이므로 invertible
