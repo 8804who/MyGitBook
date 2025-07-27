@@ -31,3 +31,10 @@
 - 만약 A의 column들이 linear indepent하면 $$A^TA$$는 invertible matrix
 - A가 m⨉n이라면 $$A^T$$는 n⨉m이므로 $$A^TA$$는 항상 square matrix
 - 따라서 columnne들이 linear independent하고 square matrix이므로 invertible
+
+### A=LU factorization
+- LU decompostion에서는 row exchange를 사용할 수 없고, 만약 row exchange를 사용해야하면 모든 exchange를 수행한 후 이후의 연산을 수행해야 한다
+- LU decomposition은 matrix를 Lower traingulart matrix와 Upper triangular matrix로 분해하는 연산
+- Matrix A의 대각선 아래 entry들을 elimination matrix와의 product를 통해 제거하여 upper traingular matrix로 만든 후, elimination matrix들의 product를 통해 lower traingular matrix를 구할 수 있다
+- E가 elimination matrix이고 A가 3⨉3 matrix일 때, $$E_{3.2}E_{3.1}E_{2.1}A=U$$를 통해 {row 3, col 2}, {row 3, col 1}, {row 2, col 1}의 entry를 elimination하여 upper triangular matrix로 변환
+- 위 식에서 $$A=LU$$이므로 $$E_{3.2}E_{3.1}E_{2.1}$$은 L이 된다
