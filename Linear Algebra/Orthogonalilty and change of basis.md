@@ -1,0 +1,11 @@
+### Orthogonal complements
+- n차원 공간 상의 vector set V의 orthogonal complement를 $$V^⫠$$(V_perp)라 하고, $$V^⫠$$의 모든 vector는 V의 모든 vector와 orthogonal하다
+- 만약 vector v의 set V와 vector x의 set $$V^⫠$$가 있으면 v의 모든 vector는 x의 모든 vector와 orthogonal하고 따라서 두 vector set의 dot product는 0이 된다
+- $$V^⫠$$ is a subspace
+  - $$V^⫠$$도 subspace로 addition과 multiplication에 닫혀있다
+  - $$V^⫠$$의 vector x1과 x2의 addition도 V의 모든 vector와 orthogonal하다
+  - $$V^⫠$$의 vector x1에 scalar c를 multiply해도 V의 모든 vector와 orthogonal하다
+- Complement of the complement
+  - Orthogonal complement의 orthogonal complement는 original subspace와 동일
+  - $$(V^⫠)^⫠=V$$
+  - 만약 $$V^⫠$$와 $$(V^⫠)^⫠=V$$의 모든 vector가 orthogonal하고, $$V^⫠$$와 V의 모든 vector가 orthogonal하기 때문에 $$(V^⫠)^⫠=V$$가 성립

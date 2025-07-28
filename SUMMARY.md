@@ -66,3 +66,4 @@
 * [Inverse](<Linear Algebra/Inverses.md>)
 * [Determinant](<Linear Algebra/Determinant.md>)
 * [Transposes](<Linear Algebra/Transposes.md>)
+* [Orthogonalilty and change of basis](<Linear Algebra/Orthogonalilty and change of basis.md>)
