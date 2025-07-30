@@ -18,3 +18,17 @@
 - Dimension of the orthogonal complement
   - subspace V와 $$V^⫠$$의 dimension의 합은 항상 두 subspace가 속해있는 space $$R^n$$의 dimesnsion과 동일하다
   - Dim(V)+Dim($$V^⫠$$)=n
+
+### Projection onto the subspace
+- Line L위에 vector x를 projection한 vector를 $$Proj_Lx$$, L위의 한 점에서 x의 마지막 부분이 연결되었고 L과 orthogonal한 vector를 $$x-Proj_Lx$$라 할 수 있다
+- $$Proj_Lx$$를 v로, $$x-Proj_Lx$$를 w에 대입하면 x-v=w이고 이는 x=v+w로 쓸 수 있다
+- w가 L에 orthogonal하기 때문에 v는 L에 포함된 vector이고 w는 $$L^⫠$$에 포함된 vector이다
+- Vector를 line에 projection하는 것처럼 subspace에도 projection 할 수 있음
+- 만약 subspace V에 projection된 vector $$Proj_vx$$가 있으면 vector x는 V의 모든 vector들 중 $$Proj_vx$$와 가장 가깝다
+- Projection is a linear transformation
+  - subspace V에 vector x를 projection하는 것은 linear transformation으로 볼 수 있다. 
+  -subpsace와 vectordml projection을 matrix-vector product로 보면 $$Proj_vx=A(A^TA)^{-1}A^Tx$$로 쓸 수 있고 여기서 A는 subspace V의 column vector를 이루는 basis들의 matrix이다
+  - 참고로 위 식은 A가 square이고 invertible하지 않은 이상 $$Proj_vx=A(A)^{-1}(A^T)^{-1}A^Tx$$ 형식으로 풀어쓸 수 없다
+  - 만약 A가 invertible하면 A는 $$R^n$$ 전체를 정의하게 되므로, vector x를 V에 projection하면 값은 그대로 x가 됨
+  - 만약 A가 invertible(square는 invertible의 필수 요건이므로 생략)하지 않으면 $$(A)^{-1}$$와 $$(A^T)^{-1}$$를 구할 수 없으므로 square matrix $$(A^TA)$$의 inverse matrix를 구한다
+  
