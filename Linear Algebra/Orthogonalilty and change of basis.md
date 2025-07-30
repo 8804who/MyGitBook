@@ -32,3 +32,9 @@
   - 만약 A가 invertible하면 A는 $$R^n$$ 전체를 정의하게 되므로, vector x를 V에 projection하면 값은 그대로 x가 됨
   - 만약 A가 invertible(square는 invertible의 필수 요건이므로 생략)하지 않으면 $$(A)^{-1}$$와 $$(A^T)^{-1}$$를 구할 수 없으므로 square matrix $$(A^TA)$$의 inverse matrix를 구한다
   
+  ### Least squares solution
+  - Ax=b에서 b가 A의 column space에 존재하지 않으면 A의 linear combination으로 b를 만들 수 없다는 뜻이 되고 이 경우 Ax=b의 해는 존재하지 않는다
+  - 만약 해가 존재하지 않는 경우 해에 가장 가까운 값을 찾는 것을 목적으로 하는데 least square solution은 해에 가장 가까운 값을 찾는 방법 중 하나이다
+  - b에 가장 가까운 Ax의 least square solution을 $$Ax^*$$라고 한다
+  - $$Ax^*$$는 b에 가장 가까운 값이므로 $$A^TAx^*=A^Tb$$를 만족할 것이다
+  - 따라서 $$A^TA$$와 $$A^Tb$$를 구한 후 그를 통해 $$x^*$$를 구할 수 있다
