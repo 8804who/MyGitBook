@@ -32,9 +32,13 @@
   - 만약 A가 invertible하면 A는 $$R^n$$ 전체를 정의하게 되므로, vector x를 V에 projection하면 값은 그대로 x가 됨
   - 만약 A가 invertible(square는 invertible의 필수 요건이므로 생략)하지 않으면 $$(A)^{-1}$$와 $$(A^T)^{-1}$$를 구할 수 없으므로 square matrix $$(A^TA)$$의 inverse matrix를 구한다
   
-  ### Least squares solution
-  - Ax=b에서 b가 A의 column space에 존재하지 않으면 A의 linear combination으로 b를 만들 수 없다는 뜻이 되고 이 경우 Ax=b의 해는 존재하지 않는다
-  - 만약 해가 존재하지 않는 경우 해에 가장 가까운 값을 찾는 것을 목적으로 하는데 least square solution은 해에 가장 가까운 값을 찾는 방법 중 하나이다
-  - b에 가장 가까운 Ax의 least square solution을 $$Ax^*$$라고 한다
-  - $$Ax^*$$는 b에 가장 가까운 값이므로 $$A^TAx^*=A^Tb$$를 만족할 것이다
-  - 따라서 $$A^TA$$와 $$A^Tb$$를 구한 후 그를 통해 $$x^*$$를 구할 수 있다
+### Least squares solution
+- Ax=b에서 b가 A의 column space에 존재하지 않으면 A의 linear combination으로 b를 만들 수 없다는 뜻이 되고 이 경우 Ax=b의 해는 존재하지 않는다
+- 만약 해가 존재하지 않는 경우 해에 가장 가까운 값을 찾는 것을 목적으로 하는데 least square solution은 해에 가장 가까운 값을 찾는 방법 중 하나이다
+- b에 가장 가까운 Ax의 least square solution을 $$Ax^*$$라고 한다
+- $$Ax^*$$는 b에 가장 가까운 값이므로 $$A^TAx^*=A^Tb$$를 만족할 것이다
+- 따라서 $$A^TA$$와 $$A^Tb$$를 구한 후 그를 통해 $$x^*$$를 구할 수 있다
+
+### Coordinates in a new basis
+- $$R^2$$ subspace V가 있고 그 위의 vector v=(2,1)과 w=(1,3)가 있을 때, B={v,w}를 basis로 사용하려고 한다고 하면 기존 axis 대신 각 vector들을 무한정 이어붙인 것을 새로운 axis로 사용한다
+- 이렇게 되면 새로운 axis들은 각 vector들과 평행하게 되고 각 vector들이 basis가 된다
