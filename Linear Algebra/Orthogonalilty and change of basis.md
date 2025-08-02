@@ -42,3 +42,7 @@
 ### Coordinates in a new basis
 - $$R^2$$ subspace V가 있고 그 위의 vector v=(2,1)과 w=(1,3)가 있을 때, B={v,w}를 basis로 사용하려고 한다고 하면 기존 axis 대신 각 vector들을 무한정 이어붙인 것을 새로운 axis로 사용한다
 - 이렇게 되면 새로운 axis들은 각 vector들과 평행하게 되고 각 vector들이 basis가 된다
+
+### Transformation matrix for a basis
+- Transformation을 기존 basis 대신 위 챕터에서 설명한 대체 basis에 대해 수행하더라도 여전히 linear하기 때문에 기존의 transformation과 동일하게 Transformation T(x)=Ax의 형태처럼 $$[T(x)]_B=M[x]_B$$형태로 볼 수 있다
+- 만약 standard basis를 alternate basis로 변환하는 matrixrk $$C[x]_B=x$$가 있고 matrix C가 invertible하면 A, M, C의 관계를 $$M=C^{-1}AC$$로 정의할 수 있다
