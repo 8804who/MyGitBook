@@ -8,3 +8,8 @@
 - 만약 matrix가 rectangular지만 column들이 orthonormal set의 vector이면 orthonormal matrix
 - Orthonormal basis를 활용하면 위 과정처럼 augemented matrix를 reduced-row-echelon form으로 만드는 것보다 아래처럼 orthonormal basis와 x의 dot product로 나타낼 수 있음
 ![alt text](./images/Orthonormal%20basis%20and%20Gram-Schmidt-Orthonormal%20basis2.png)
+
+### Projection onto an orthonormal basis
+- Subspace가 orthonormal basis로 구성된 경우 vector를 subspace로 projection하는 경우에도 더 간단히 수행 가능
+- Vector x를 subspace V에 projection하는 것을 $$Proj_Vx=A(A^TA)^{-1}A^Tx$$로 표한할 수 있는데 subspace V가 orthonormal basis로 구성된 경우 $$Proj_vx=AA^Tx$$로 표현 가능
+- A가 orthonormal column vector로 이루어진 경우 $$(A^TA)^{-1}$$를 identity matrix I로 단순화 가능하기 때문에 위가 성립
