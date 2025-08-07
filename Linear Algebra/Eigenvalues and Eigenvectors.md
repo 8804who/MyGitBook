@@ -13,3 +13,7 @@
   - Eigenvector를 찾기 위해서는 각 eigenvalue들의 eigenspace를 정의해야한다
   - Eigenvalue λ의 eigenspace $$E_λ$$는 Av=λv를 만족하는 모든 eigenvector v들의 set이다
   - Av=λv를 $$(λI_n-A)v=O$$로 표현 가능하고 $$λI_n-A$$는 matrix이므로 eigenspace는 matrix $$λI_n-A$$의 nullspace이고 $$E_λ=N(λI_n-A)$$
+
+### Eigen in three dimensions
+- 3⨉3 matrix에서도 eigenvalue를 찾는 과정은 동일
+- 3차원에 대한 고려를 해야하는 것은 좀 더 복잡하지만 기본적으로 2⨉2일때와 동일
